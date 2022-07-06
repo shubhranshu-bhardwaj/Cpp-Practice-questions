@@ -7,7 +7,7 @@ int main(){
     cin>>x;
     cout<<"Enter the range of table:";
     cin>>range;
-    for (int i = 1; i <=range; i++)
+    for (int i = 1; i <=range; i++) //this loop will run till the condition is true i.e i<=range let range=15 and x=5, i=15, this will multiply 5 from 1 to 15
     {
         cout<<x<<" x "<<i<<" = "<<x*i<<endl;
     }
