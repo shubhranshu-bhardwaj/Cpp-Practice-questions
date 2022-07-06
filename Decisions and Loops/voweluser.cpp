@@ -7,13 +7,13 @@ int main(){
     bool lowercase,uppercase;
     cout<<"Enter any char:";
     cin>>x;
-     lowercase=(x=='a'|| x=='e'||x=='i'||x=='o'||x=='u');
-    uppercase=(x=='A'|| x=='E'||x=='I'||x=='O'||x=='U');
-    if (lowercase || uppercase)
+    lowercase=(x=='a'|| x=='e'||x=='i'||x=='o'||x=='u'); //is character in lowercase
+    uppercase=(x=='A'|| x=='E'||x=='I'||x=='O'||x=='U'); ///is character in upppercase
+    if (lowercase || uppercase) //if condition is true then if part will print
     {
         cout<<"Vowel";
     }
-    else
+    else //if above condition is not true then else part will print
     {
         cout<<"Consonant";
     }
