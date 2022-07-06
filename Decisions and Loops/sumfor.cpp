@@ -8,7 +8,7 @@ int main(){
     cin>>x;
     for (int i = 1; i <=x; i++)
     {
-        sum+=i;
+        sum+=i; //this will add from 1 to x(1+...+x) because our loop is starting from 1 and end at x, sum+=i means sum=sum+i
     }
     cout<<"Sum of your no. "<<x<<" is:"<<sum;
     return 0;
