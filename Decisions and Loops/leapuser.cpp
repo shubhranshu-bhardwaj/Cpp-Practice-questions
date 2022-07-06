@@ -5,7 +5,7 @@ int main(){
     int year;
     cout<<"Enter any year:";
     cin>>year;
-    if (year%4==0 || year%400==0)
+    if (year%4==0 || year%400==0) //if the year is totally divisible by 4 or 400 then it is called a leap year
     {
         cout<<"Leap year";
     }
