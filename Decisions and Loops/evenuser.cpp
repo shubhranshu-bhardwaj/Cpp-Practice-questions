@@ -5,13 +5,13 @@ using namespace std;
 int main(){
     int x;
     cout<<"Enter no.:";
-    cin>>x;
-    if (x%2==0)
+    cin>>x; //taking input from user
+    if (x%2==0) //if this condition true then your no. is even will printed
     {
         cout<<"Your no. is even";
     }
     else{
-        cout<<"Your no. is odd";
+        cout<<"Your no. is odd"; //if the condition is not true then this part will be printed
     }
     return 0;
     
