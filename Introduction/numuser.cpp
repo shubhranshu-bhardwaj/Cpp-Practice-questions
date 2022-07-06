@@ -1,11 +1,11 @@
 //C++ program to print number entered by user
 
-#include<iostream>
-using namespace std;
-int main(){
-    int x;
+#include<iostream> //header file
+using namespace std; //namespace
+int main(){ //main function
+    int x; //declaring variable
     cout<<"Enter any number:";
-    cin>>x;
-    cout<<"Entered number is:"<<x;
+    cin>>x; //taking input
+    cout<<"Entered number is:"<<x; //printing the number
     return 0;
 }
