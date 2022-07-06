@@ -8,7 +8,7 @@ int main(){
     cin>>x;
     cout<<"Enter second no.:";
     cin>>y;
-    cout<<"Quotient:"<<x/y<<endl;
-    cout<<"Remainder:"<<x%y;
+    cout<<"Quotient:"<<x/y<<endl; //printing the quotient '/' use for finding quotient
+    cout<<"Remainder:"<<x%y; //printing the Remainder '%' use for finding Remainder
     return 0;
 }
