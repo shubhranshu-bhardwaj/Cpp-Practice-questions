@@ -1,4 +1,4 @@
-// Find the absolute value of a number entered by the user
+// Find the absolute value of a number entered by the user.
 #include <iostream>
 #include <cmath> //cmath is a math library of c++
 using namespace std;
