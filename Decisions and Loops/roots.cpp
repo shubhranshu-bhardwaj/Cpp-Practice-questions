@@ -1,5 +1,6 @@
 //C++ Program to Find All Roots of a Quadratic Equation
 /* The term b2-4ac is known as the discriminant of a quadratic equation. The discriminant tells the nature of the roots.
+We will do some mathematics
 
 If discriminant is greater than 0, the roots are real and different.
 If discriminant is equal to 0, the roots are real and equal.
