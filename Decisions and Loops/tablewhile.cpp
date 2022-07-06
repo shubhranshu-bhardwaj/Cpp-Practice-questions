@@ -9,7 +9,7 @@ int main(){
     cin>>x;
     while (i<=10)
     {
-        cout<<x<<" x "<<i<<" = "<<x*i<<endl;
+        cout<<x<<" x "<<i<<" = "<<x*i<<endl; //this will print from 1 to 10 (x*1,x*2,....x*10) because our loop starting from 1 and will end at 10
         i++;
     }
     return 0;
