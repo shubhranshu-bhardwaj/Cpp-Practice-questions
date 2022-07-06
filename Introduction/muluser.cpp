@@ -1,13 +1,13 @@
 //C++Program to Multiply Two Numbers take input from user
 
-#include<iostream>
-using namespace std;
-int main(){
-    int x,y;
+#include<iostream> //header file
+using namespace std; //namespace
+int main(){ //main function
+    int x,y; //declaring variable
     cout<<"Enter number:"<<endl;
-    cin>>x;
+    cin>>x; //taking input
     cin>>y;
-    cout<<"Multiplication of your number:"<<x*y;
+    cout<<"Multiplication of your number:"<<x*y; //printing multiplication
     return 0;
 
 }
