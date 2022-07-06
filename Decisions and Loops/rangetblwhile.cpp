@@ -9,7 +9,7 @@ int main(){
     cin>>range;
     while (i<=range)
     {
-        cout<<x<<" x "<<i<<" = "<<x*i<<endl;
+        cout<<x<<" x "<<i<<" = "<<x*i<<endl; //this loop will run till the condition is true i.e i<=range let range=15 and x=5, i=15, this will multiply 5 from 1 to 15
         i++;
     }
     return 0;
