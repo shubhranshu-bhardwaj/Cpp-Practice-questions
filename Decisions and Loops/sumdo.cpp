@@ -8,9 +8,10 @@ int main(){
     cin>>x;
     do
     {
-        sum+=i;
+        sum+=i; //this will add 1 to x(1+...+x) because our loop is starting from 1 and will end at x
         i++;
     } while (i<=x);
     cout<<"Sum of your no. "<<x<<" is:"<<sum;
     return 0;
 }
+//if condition is not true still this function run once
