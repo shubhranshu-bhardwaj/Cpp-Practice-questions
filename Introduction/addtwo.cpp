@@ -6,6 +6,6 @@ int main(){
     int a,b; //declaring variable
     a=5; //assigning value
     b=6; //assigning value
-    cout<<"Addition of a and b is:"<<a+b; //printing the sum
+    cout<<"Addition of a and b is:"<<a+b; //printing the addition
     return 0;
 }
