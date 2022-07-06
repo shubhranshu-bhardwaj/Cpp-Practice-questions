@@ -10,15 +10,15 @@ int main(){
     cin>>y;
     cout<<"Enter third no.:";
     cin>>z;
-    if (x>y && x>z)
+    if (x>y && x>z) //first condition if this true then if part printed
     {
         cout<<x<<" is largest";
     }
-    else if (y>z && y>x)
+    else if (y>z && y>x)//second condition if this true then else if part printed
     {
         cout<<y<<" is largest";
     }
-    else
+    else //if both condition false the this else part printed
     {
         cout<<z<<" is largest";
     }
